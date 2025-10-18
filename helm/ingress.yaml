@@ -410,7 +410,7 @@ controller:
     nodePorts: {}
     #  http: 31080
     #  https: 31443
-    #  stat: 31024
+    #  stat: 31090
     #  admin: 31060
 
     ## Service ports to use for http, https and stat
@@ -418,7 +418,7 @@ controller:
     ports:
       http: 80
       https: 443
-      stat: 1024
+      stat: 9090
       admin: 6060
 
     ## The controller service ports for http, https and stat can be disabled by
